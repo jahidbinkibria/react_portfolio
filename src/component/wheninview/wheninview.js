@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Waypoint from "react-waypoint";
 
 class Wheninview extends Component {
@@ -30,9 +29,6 @@ class Wheninview extends Component {
     }
 }
 
-Wheninview.propTypes = {
-
-};
 
 export default Wheninview;
 

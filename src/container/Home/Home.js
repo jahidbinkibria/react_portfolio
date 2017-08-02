@@ -15,7 +15,6 @@ export default  class Home extends Component{
                     <h1>Khan Saheb</h1>
                     <h2>Front-end Developer</h2>
                 </HeroImage>
-                {/* <Image src={require("../asset/hero.gif")} alt="Hero Image"/> */}
                <Wheninview>
                    {({isInView}) => 
                     <RevealP hide={!isInView}>
