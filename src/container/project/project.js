@@ -3,6 +3,7 @@ import ReactZoomy from "react-zoomy";
 import {ImageButton} from './/project-style';
 import {Container} from '../../theme/grid';
 import {Background} from './project-style';
+import {A} from '../../theme/types';
 
 
 
@@ -29,7 +30,8 @@ class Project extends Component {
                     }
                 }}
                 />
-                <h1>Oh Yeah! &#x1f609; &#128523;</h1>
+                <h1>Oh Yeah! <span role="img" aria-label="emo">&#x1f609; &#128523;</span></h1>
+                <h3>npm install save <A href="">react-zoomy</A></h3>
             </Container>
         );
     }
